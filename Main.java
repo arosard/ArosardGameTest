@@ -6,7 +6,9 @@ public class Main{
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTile("2D Adventure");
+        window.setTitle("2D Adventure");
+
+        GamePanel gamePanel = new GamePanel
 
         window.setLocationRelativeTo(null); //to be displayed at the center of the screen
         window.setVisible(true);
